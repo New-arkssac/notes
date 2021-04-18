@@ -1,12 +1,12 @@
 # web33
-![img](../../../image/bugku/5804302170163.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618661161370-5804302170163.png)
 ## 题目描述
 >fR4aHWwuFCYYVydFRxMqHhhCKBseH1dbFygrRxIWJ1UYFhotFjA=
 
 这道题要下载
 先看是啥玩意儿
 得到源码
-![img](../../../image/bugku/1397926115847.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618661175644-1397926115847.png)
 
 ```php
     1 <?php

@@ -1,11 +1,11 @@
 # web29
-![img](../../../image/QQ图片20210121204323.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659920742-QQ%E5%9B%BE%E7%89%8720210121204323.png)
 题目描述
 
 各种绕过
 
 进入环境
-![img](../../../image/bugku/4002412210162.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659945516-4002412210162.png)
 
 ```php
 <?php
@@ -41,24 +41,24 @@ emmmm
 然会就会NULL和NULL比较
 就会返回布尔值true条件为真
 ```php
-  1 <?php
-  2 error_reporting(0);
-  3 $a = $_GET['a'];
-  4 $b = $_GET['b'];
-  5 $c = sha1($a) === sha1($b);
-  6 $s = sha1($a) == sha1($b);
-  7 var_dump($c);
-  8 echo "<br>";
-  9 var_dump($s);
- 10 if (isset($a) and isset($b)) {
- 11 ▸ echo "<br>";
- 12 ▸ var_dump(sha1($a));
- 13 ▸ echo "<br>";
- 14 ▸ var_dump(sha1($b));
- 15 }
+ 1 <?php                         
+ 2 error_reporting(0);           
+ 3 $a = $_GET['a'];              
+ 4 $b = $_GET['b'];              
+ 5 if (isset($a) and isset($b)) {
+ 6 ▸ $c = sha1($a) === sha1($b); 
+ 7 ▸ $s = sha1($a) == sha1($b);  
+ 8 ▸ var_dump($c);               
+ 9 ▸ echo "<br>";                
+10 ▸ var_dump($s);               
+11 ▸ echo "<br>";                
+12 ▸ var_dump(sha1($a));         
+13 ▸ echo "<br>";                
+14 ▸ var_dump(sha1($b));         
+15 }                             
 ```
 执行结果
-![img](vx_images/767549236621.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618660593943.png)
 
 
 构造payload
@@ -66,9 +66,9 @@ emmmm
 >passwd[]=2
 
 使用hackbar
-![img](../../../image/bugku/2859129228588.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618660647840-2859129228588.png)
 使用bp
-![img](../../../image/bugku/2386131216455.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618660735809-2386131216455.png)
 
 得到flag
 

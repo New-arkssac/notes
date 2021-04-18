@@ -1,22 +1,22 @@
 # web24
 
-![image-20210120151656440](../../..//image/image-20210120151656440.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658551604-image-20210120151656440.png)
 
 进入题目
 
-![image-20210120151722227](../../..//image/image-20210120151722227.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658575592-image-20210120151722227.png)
 
 有一些骚话
 
 惯例查看一下源码
 
-![image-20210120151826784](../../..//image/image-20210120151826784.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658604721-image-20210120151826784.png)
 
-发现一个a标签元素
+发现一个a标签
 
 点开它
 
-![image-20210120151917470](../../..//image/image-20210120151917470.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658620318-image-20210120151917470.png)
 
 一个code.txt
 
@@ -71,7 +71,7 @@ emmm
 
 这里代码执行结果
 
-![image-20210120154208478](../../..//image/image-20210120154208478.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658681060-image-20210120154208478.png)
 
 
 
@@ -100,7 +100,7 @@ strcmd是二进制安全对比
 
 运行结果
 
-![image-20210120154730629](../../..//image/image-20210120154730629.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658698749-image-20210120154730629.png)
 
 这样就可以进行绕过了
 
@@ -110,7 +110,7 @@ payload
 
 > ?v1[]=1&v2[]=2&v3[]=3
 
-![image-20210120154828173](../../..//image/image-20210120154828173.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658712411-image-20210120154828173.png)
 
 得到flag
 

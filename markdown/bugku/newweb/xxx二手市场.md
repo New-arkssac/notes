@@ -1,20 +1,20 @@
 # xxx二手市场
 
-![image-20210119094447787](../../../image/image-20210119094447787.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618662264657-image-20210119094447787.png)
 
 进入题目
 
-​	![image-20210119094540321](../../../image/image-20210119094540321.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618662281603-image-20210119094540321.png)
 
 emmm类实战题
 
 尝试一下有没有sql注入
 
-![image-20210119094618779](../../../image/image-20210119094618779.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618662298297-image-20210119094618779.png)
 
 进入注册页面
 
-![image-20210119094658604](../../../image/image-20210119094658604.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618662314502-image-20210119094658604.png)
 
 不能使用特殊字符
 
@@ -24,7 +24,7 @@ emmmm
 
 去登录界面看一下
 
-![image-20210119095218247](../../../image/image-20210119095218247.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618662334529-image-20210119095218247.png)
 
 也是一个样
 
@@ -34,29 +34,29 @@ emm
 
 只好注册一个用户找找看了
 
-![image-20210119095335827](../../../image/image-20210119095335827.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618662352247-image-20210119095335827.png)
 
 登录之后发现可以上传头像
 
 看看是否有文件上传漏洞
 
-![image-20210119095426844](../../../image/image-20210119095426844.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618662366517-image-20210119095426844.png)
 
 bp抓包
 
-![image-20210119095529171](../../../image/image-20210119095529171.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618662383997-image-20210119095529171.png)
 
 这个是将图片进行base64编码把图片的信息传上服务器
 
 可以按照图片base64编码的格式进行伪装绕过
 
-![image-20210119095832068](../../../image/image-20210119095832068.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618662407655-image-20210119095832068.png)
 
 ```php
 data:image/php;base64,PD9waHAgQGV2YWwoJF9QT1NUW3NoZWxsXSk7Pz4=
 ```
 
-![image-20210119100038380](../../../image/image-20210119100038380.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618662424676-image-20210119100038380.png)
 
 得到绝对路径
 
@@ -64,16 +64,16 @@ data:image/php;base64,PD9waHAgQGV2YWwoJF9QT1NUW3NoZWxsXSk7Pz4=
 
 选择base64解码
 
-![image-20210119100253404](../../../image/image-20210119100253404.png)
+![image-20210119100253404](D:\ebook\markdown\image/image-20210119100253404.png)
 
 然后测试连接
 
-![image-20210119100308294](../../../image/image-20210119100308294.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618662480511-image-20210119100308294.png)
 
 测试成功
 
-![image-20210119100336654](../../../image/image-20210119100336654.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618662501522-image-20210119100336654.png)
 
 在html目录下找到flag
 
-![image-20210119100403766](../../../image/image-20210119100403766.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618662516323-image-20210119100403766.png)

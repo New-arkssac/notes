@@ -1,6 +1,6 @@
 # web19
 
-![image-20210117091916100](../../..//image/image-20210117091916100.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657834026-image-20210117091916100.png)
 
 题目描述：
 
@@ -8,13 +8,13 @@
 
 进入环境
 
-![image-20210117092009156](../../..//image/image-20210117092009156.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657854555-image-20210117092009156.png)
 
 进入环境
 
 让快一些
 
-![image-20210117092123499](../../..//image/image-20210117092123499.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657869032-image-20210117092123499.png)
 
 按F12查看源码
 
@@ -36,7 +36,7 @@ emmm
 
 抓个包试一下
 
-![image-20210117105543373](../../..//image/image-20210117105543373.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657883626-image-20210117105543373.png)
 
 解码之后还要再解码一次
 
@@ -49,7 +49,7 @@ emmm
   2 import base64
   3
   4 url = 'http://114.67.246.176:19392'
-  5 push = requests.session()
+  5 push = requests.session()  
   6 headers = push.get(url).headers
   7
   8 str1 = base64.b64decode(headers['flag'])

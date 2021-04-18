@@ -1,6 +1,6 @@
 # web26
 
-![image-20210119202900387](../../../image/image-20210119202900387.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659596759-image-20210119202900387.png)
 
 题目描述
 
@@ -8,7 +8,7 @@ google
 
 进入题目
 
-![image-20210119202928055](../../../image/image-20210119202928055.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659614972-image-20210119202928055.png)
 
 一句英语
 
@@ -24,7 +24,7 @@ emmmm
 
 bp抓包
 
-![image-20210119203212506](../../../image/image-20210119203212506.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659629108-image-20210119203212506.png)
 
 得到flag
 

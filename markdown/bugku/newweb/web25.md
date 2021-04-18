@@ -1,10 +1,10 @@
 # web25
 
-![image-20210119154444935](../../../image/image-20210119154444935.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658756536-image-20210119154444935.png)
 
 进入题目
 
-![image-20210119154547502](../../../image/image-20210119154547502.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658774380-image-20210119154547502.png)
 
 根据提示估计是sql注入
 
@@ -12,25 +12,25 @@
 
 失败
 
-![image-20210119154810335](../../../image/image-20210119154810335.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658800511-image-20210119154810335.png)
 
 emmm
 
 看一下注册页面
 
-![image-20210119154852758](../../../image/image-20210119154852758.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658816786-image-20210119154852758.png)
 
 使用语句的时候就直接注册成功了。。
 
 那只好先注册看看里面有什么吧
 
-![image-20210119155054251](../../../image/image-20210119155054251.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658832508-image-20210119155054251.png)
 
 使用admin去注册的时候说admin已经存在
 
 哦豁
 
-![image-20210119155152074](../../../image/image-20210119155152074.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658846994-image-20210119155152074.png)
 
 注册成功之后去登陆
 
@@ -54,13 +54,13 @@ emmm那估计admin就是管理员了
 
 先创建一个数据库
 
-![image-20210119161639054](../../../image/image-20210119161639054.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658986544-image-20210119161639054.png)
 
 选择数据库
 
 再创建表
 
-![image-20210119161854067](../../../image/image-20210119161854067.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659023196-image-20210119161854067.png)
 
 再插入数据
 
@@ -68,7 +68,7 @@ emmm那估计admin就是管理员了
 >
 > password插入"password"
 
-![image-20210119162247398](../../../image/image-20210119162247398.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659039463-image-20210119162247398.png)
 
 然后使用where条件去查询
 
@@ -78,7 +78,7 @@ select * from user where username = 'admin';
 
 执行结果
 
-![image-20210119162617505](../../../image/image-20210119162617505.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659052907-image-20210119162617505.png)
 
 再使用"admin                                  " 去查询
 
@@ -88,7 +88,7 @@ select * from user where username = 'admin                         ';
 
 执行结果
 
-![image-20210119162747738](../../../image/image-20210119162747738.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659073411-image-20210119162747738.png)
 
 这两个语句的执行结果是一样的
 
@@ -102,7 +102,7 @@ select * from user where username = 'admin                         ';
 >
 > password插入"password1"
 
-![image-20210119164421804](../../../image/image-20210119164421804.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659093124-image-20210119164421804.png)
 
 插入相同的话就会报错
 
@@ -114,11 +114,11 @@ select * from user where username = 'admin                         ';
 
 >shit!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 >
->他/****的这个约束注入我还以为是特性，没想到是一个bug，在版本高的mysql跟mariadb中都已经被修复了，没有截断了只有在版本低的mysql还有mariadb中才有！！！！：(
+>他mua的这个约束注入我还以为是特性，没想到是一个bug，在版本高的mysql跟mariadb中都已经被修复了，没有截断了只有在版本低的mysql还有mariadb中才有！！！！：(
 >
 >所有接下来的复现都只接着上文的继续进行
 
-![image-20210119172806001](../../../image/image-20210119164421804.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659111678-image-20210119164421804.png)
 
 
 
@@ -130,13 +130,13 @@ select * from user where username = 'admin                         ';
 
 所以它是两个独立的用户
 
-但是因为select会优先返回第一条数据也就是原始的数据
+但是因为select的bug会把第二条数据的password的字段当成第一条数据的username的字段
 
 这样就可以使用原始的用户什么登录成功了
 
 根据以上原理
 
-![image-20210119173319561](../../../image/image-20210119173319561.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659126929-image-20210119173319561.png)
 
 在注册中注册一个admin的用户使用过长的payload使它截断
 
@@ -144,15 +144,15 @@ select * from user where username = 'admin                         ';
 admin                                 1
 ```
 
-![image-20210119173437485](../../../image/image-20210119173437485.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659153434-image-20210119173437485.png)
 
 注册成功
 
-![image-20210119173455111](../../../image/image-20210119173455111.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659464965-image-20210119173455111.png)
 
 转跳后登录
 
-![image-20210119173520645](../../../image/image-20210119173520645.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659483005-image-20210119173520645.png)
 
 得到flag
 

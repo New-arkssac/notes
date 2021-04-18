@@ -2,7 +2,7 @@
 
 **SSTI(Server-Side Template Injection)服务端模板注入**
 
-![image-20210316154311050](../../image/bugku/image-20210316154311050.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618662899868-image-20210316154311050.png)
 
 You need pass in a parameter named flag.
 
@@ -16,7 +16,7 @@ payload
 
 > `http://114.67.246.176:17452/?flag={{config}}`
 
-![image-20210316154611421](../../image/bugku/image-20210316154611421.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618662922876-image-20210316154611421.png)
 
 得到flag
 

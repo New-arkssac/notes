@@ -1,12 +1,12 @@
 # web38
 
-![img](../../../image/bugku/1113547220043.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618662156628-1113547220043.png)
 
 题目描述
 > **基于布尔的sql盲注**
 
 emmmm
-![img](../../../image/bugku/2086648225798.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618662172826-2086648225798.png)
 
 直接扔脚本吧
 ```python

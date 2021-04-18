@@ -2,7 +2,7 @@
 
 进入题目
 
-![image-20210316160549164](../../../image/bugku/image-20210316160549164.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618654731032-image-20210316160549164.png)
 
 直接有源码
 
@@ -19,7 +19,7 @@ echo 'flag{****}';
 
 再判断$what被赋予的值是否是flag，是的话就打印flag
 
-![image-20210316160810226](../../../image/bugku/image-20210316160810226.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618654753095-image-20210316160810226.png)
 
 得到flag
 

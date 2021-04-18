@@ -1,16 +1,17 @@
 # web32
-![img](../../../image/bugku/3911949232063.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618661026218-3911949232063.png)
 文件上传
 进入题目
-![img](../../../image/bugku/4112450224948.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618661043638-4112450224948.png)
 My name is margin,give me a image file not a php
 我的名字是margin，给我一个图片，而不是php文件
 
-![img](../../../image/bugku/1052222095558.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618661063849-1052222095558.png)
 上传图片马
 没成功
 换几个后缀名
 php还有很多自带的后缀名
+
 >php1、php2、php3、php4、php5、phtml、pht
 
 也可尝试大小写绕过
@@ -31,10 +32,10 @@ emmmmm
 
 经过测试
 只有php4可以绕过，其他的都不行，而且后端也会吧大写给转换成小写
-![img](../../../image/bugku/5616326122513.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618661087137-5616326122513.png)
 
 使用蚁剑连接
-![img](../../../image/bugku/7233104726.png)
-![img](../../../image/bugku/3288333094024.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618661102794-7233104726.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618661121571-3288333094024.png)
 在根目录下找到flag
 

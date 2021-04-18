@@ -10,7 +10,7 @@ bugku出了一个新的平台
 
 进入环境
 
-![image-20210115144632455](../../../image/image-20210115144632455.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618655504163-image-20210115144632455.png)
 
 一窜英文
 
@@ -58,7 +58,7 @@ if(isset($_GET['args'])){
 
 然后全局变量就打印出了flag
 
-![image-20210115152738434](../../../image/image-20210115152738434.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618655548480-image-20210115152738434.png)
 
 补充：
 
@@ -68,23 +68,21 @@ if(isset($_GET['args'])){
 
 _GET是args
 
-![image-20210115201710472](../../../image/image-20210115201710472.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618655571735-image-20210115201710472.png)
 
 _POST是空
 
-![image-20210115201808169](../../../image/image-20210115201808169.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618655598213-image-20210115201808169.png)
 
 _COOKIE是空
 
-![image-20210115201916787](../../../image/image-20210115201916787.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618655622016-image-20210115201916787.png)	_FILES是空
 
-​	_FILES是空
-
-![image-20210115202103781](../../../image/image-20210115202103781.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618655647522-image-20210115202103781.png)
 
 ZFkwe3就是flag
 
-![image-20210115202228130](../../../image/image-20210115202228130.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618655679605-image-20210115202228130.png)
 
 如果是GLOBALS就会执行递归
 

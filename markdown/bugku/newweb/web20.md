@@ -1,6 +1,6 @@
 # web20
 
-![image-20210118095303073](../../../image/image-20210118095303073.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657929109-image-20210118095303073.png)
 
 题目描述:
 
@@ -8,7 +8,7 @@ cookies欺骗
 
 进入环境
 
-![image-20210118095358370](../../../image/image-20210118095358370.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657946290-image-20210118095358370.png)
 
 进入环境
 
@@ -16,7 +16,7 @@ cookies欺骗
 
 url栏里有一串base64的编码
 
-![image-20210118095522091](../../../image/image-20210118095522091.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657964474-image-20210118095522091.png)
 
 解码后得到
 
@@ -26,7 +26,7 @@ emmmm
 
 这里应该是把文件名给编码之后才能执行
 
-![image-20210118095906068](../../../image/image-20210118095906068.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657978634-image-20210118095906068.png)
 
 用没编码过的文件名去访问的话没有任何回显
 
@@ -36,9 +36,9 @@ emmmm
 
 把index.php给编码过后再访问
 
-![image-20210118100152707](../../../image/image-20210118100152707.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657993147-image-20210118100152707.png)
 
-![image-20210118100232535](../../../image/image-20210118100232535.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658009714-image-20210118100232535.png)
 
 但是没有任何回显。。
 
@@ -50,13 +50,13 @@ line英文有行的意思
 
 就试着输入了一个1
 
-![image-20210118100414530](../../../image/image-20210118100414530.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658024211-image-20210118100414530.png)
 
 就回显了一串源码
 
 在line那输入2
 
-![image-20210118100503248](../../../image/image-20210118100503248.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658069890-image-20210118100503248.png)
 
 emmmm
 
@@ -79,7 +79,7 @@ emmmm
 
 得到源码
 
-![image-20210118102257455](../../../image/image-20210118102257455.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658098736-image-20210118102257455.png)
 
 从源码得知
 
@@ -89,7 +89,7 @@ emmmm
 
 所以抓个bp包
 
-![image-20210118102716698](../../../image/image-20210118102716698.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658115643-image-20210118102716698.png)
 
 得到flag
 

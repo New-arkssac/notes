@@ -1,12 +1,12 @@
 # web12
 
-![image-20210116105141972](../../../image/image-20210116105141972.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618656460005-image-20210116105141972.png)
 
 题目描述是本地管理员
 
 进入题目之后在内存源码中找到base64的编码
 
-![image-20210116105333111](../../../image/image-20210116105333111.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618656480117-image-20210116105333111.png)
 
 ```
 dGVzdDEyMw==
@@ -14,7 +14,7 @@ dGVzdDEyMw==
 
 bp解码得到
 
-![image-20210116105433165](../../../image/image-20210116105433165.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618656506193-image-20210116105433165.png)
 
 ```
 test123
@@ -30,7 +30,7 @@ test123
 referere: 127.0.0.1
 ```
 
-![image-20210116105636141](../../../image/image-20210116105636141.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618656534560-image-20210116105636141.png)
 
 结果没有返回信息
 
@@ -44,7 +44,7 @@ X-Formwarded-For: 127.0.0.1
 
 添加XFF发送请求
 
-![image-20210116105937525](../../../image/image-20210116105937525.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618656564002-image-20210116105937525.png)
 
 得到flag
 

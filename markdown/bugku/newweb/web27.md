@@ -1,6 +1,6 @@
 # web27
 
-![image-20210119203412792](../../../image/image-20210119203412792.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659689097-image-20210119203412792.png)
 
 题目描述
 
@@ -10,7 +10,7 @@ md5碰撞题
 
 进入环境
 
-![image-20210119203510084](../../../image/image-20210119203510084.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659717605-image-20210119203510084.png)
 
 please input a
 
@@ -41,12 +41,12 @@ md5值在php中因为==是松散的比较的原因
 
 执行的结果
 
-![image-20210119210046355](../../../image/image-20210119210046355.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659751446-image-20210119210046355.png)
 
 
 
 ​	oe开头的md5值有很多请[百度](https://www.baidu.com)
 
-![image-20210119211221516](../../../image/image-20210119211221516.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659770942-image-20210119211221516.png)
 
 得到flag

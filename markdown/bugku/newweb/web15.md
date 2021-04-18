@@ -1,16 +1,16 @@
 # web15
 
-![image-20210116163743889](../../../image/image-20210116163743889.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657048140-image-20210116163743889.png)
 
 进入环境
 
-![image-20210116163826080](../../../image/image-20210116163826080.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657072445-image-20210116163826080.png)
 
 让输入5位数的密码
 
 尝试输入admin
 
-![image-20210116163944081](../../../image/image-20210116163944081.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657089310-image-20210116163944081.png)
 
 emmmm
 
@@ -18,17 +18,17 @@ emmmm
 
 直接上爆破
 
-![image-20210116164104358](../../../image/image-20210116164104358.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657103888-image-20210116164104358.png)
 
-![image-20210116164141429](../../../image/image-20210116164141429.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657124480-image-20210116164141429.png)
 
 添加密码字典
 
-![image-20210116164240084](../../../image/image-20210116164240084.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657143963-image-20210116164240084.png)
 
 开始运行
 
-![image-20210116164302587](../../../image/image-20210116164302587.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657159934-image-20210116164302587.png)
 
 啊啊啊啊啊啊啊啊啊啊啊啊
 
@@ -36,7 +36,7 @@ emmmm
 
 好难过
 
-![image-20210116164934214](../../../image/image-20210116164934214.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657174025-image-20210116164934214.png)
 
 想了一会，提示是输入五位数的密码
 
@@ -44,15 +44,15 @@ emmmm
 
 试一试
 
-![image-20210116165136402](../../../image/image-20210116165136402.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657194039-image-20210116165136402.png)
 
 切换数字模式
 
-![image-20210116165419962](../../../image/image-20210116165419962.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657212795-image-20210116165419962.png)
 
 开始
 
-![image-20210116165912308](../../../image/image-20210116165912308.png)
+!![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657235447-image-20210116165912308.png)
 
 哦豁嚯嚯
 
@@ -60,7 +60,7 @@ emmmm
 
 12468
 
-![image-20210116170014589](../../../image/image-20210116170014589.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657259449-image-20210116170014589.png)
 
 得到flag
 

@@ -1,6 +1,6 @@
 # web30
 
-![image-20210120093802647](../../../image/image-20210120093802647.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618660801025-image-20210120093802647.png)
 
 题目描述
 
@@ -12,7 +12,7 @@
 
 进入题目
 
-![image-20210120094159260](../../..//image/image-20210120094159260.png)e
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618660844845-image-20210120094159260.png)e
 
 ```php
 <?php
@@ -66,7 +66,7 @@ payload就是
 >
 > a
 
-![image-20210120101735773](../../../image/image-20210120101735773.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618660862878-image-20210120101735773.png)
 
 
 
@@ -80,7 +80,7 @@ payload
 
 > ?ac=a&fn=data://text/plain,a
 
-![image-20210120102115328](../../../image/image-20210120102115328.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618660878441-image-20210120102115328.png)
 
 一样可以拿到flag
 
@@ -88,7 +88,7 @@ payload
 
 > ?ac=bugku&fn=flag.txt
 
-![image-20210120102251260](../../../image/image-20210120102251260.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618660893814-image-20210120102251260.png)
 
 一样能拿到flag
 
@@ -98,8 +98,8 @@ payload
 
 然后用里面的值去访问就可以拿到flag了
 
-![image-20210120102510269](../../../image/image-20210120102510269.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618660910120-image-20210120102510269.png)
 
-![image-20210120103826308](../../../image/image-20210120103826308.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618660929446-image-20210120103826308.png)
 
-![image-20210120104308088](../../../image/image-20210120104308088.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618660949345-image-20210120104308088.png)

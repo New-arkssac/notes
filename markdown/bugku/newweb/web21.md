@@ -1,28 +1,28 @@
 # web21
 
-![image-20210118103015014](../../../image/image-20210118103015014.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658169151-image-20210118103015014.png)
 
 进入环境
 
-![image-20210118103105844](../../../image/image-20210118103105844.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658191791-image-20210118103105844.png)
 
 never never never give up!!!永不言弃！
 
 查看f12
 
-![image-20210118103236972](../../../image/image-20210118103236972.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658206614-image-20210118103236972.png)
 
 有一个1p.html
 
 尝试访问
 
-![image-20210118103322803](../../../image/image-20210118103322803.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658225848-image-20210118103322803.png)
 
 访问就自动转跳到别的页面了
 
 这个要抓包才行了
 
-![image-20210118103455966](../../../image/image-20210118103455966.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658246189-image-20210118103455966.png)
 
 抓包得到1p.html的源码
 
@@ -30,19 +30,19 @@ never never never give up!!!永不言弃！
 
 先解码看看
 
-![image-20210118103748221](../../../image/image-20210118103748221.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658266452-image-20210118103748221.png)
 
 得到base64编码的玩意儿
 
 再解码
 
-![image-20210118103839035](../../../image/image-20210118103839035.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658281031-image-20210118103839035.png)
 
 又得到url编码的
 
 再解码
 
-![image-20210118103932475](../../../image/image-20210118103932475.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658298647-image-20210118103932475.png)
 
 得到源码
 
@@ -92,7 +92,7 @@ payload是这样
 
 得到flag
 
-![image-20210118120721051](../../../image/image-20210118120721051.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658318443-image-20210118120721051.png)
 
 
 

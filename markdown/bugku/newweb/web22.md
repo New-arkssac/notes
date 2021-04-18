@@ -1,10 +1,10 @@
 # web22
 
-![image-20210118192123332](../../../image/image-20210118192123332.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658381493-image-20210118192123332.png)
 
 题目描述:
 
-![image-20210118192305288](../../../image/image-20210118192305288.png)
+![image-20210118192305288](D:\ebook\markdown\image/image-20210118192305288.png)
 
 ```php
 $poc="a#s#s#e#r#t";
@@ -25,9 +25,7 @@ $poc_2($_GET['s']);
 
 assert会在检查指定的值并在结果为FALSE时采取一些行动，如果这个值时字符串，就会被assert当作php代码执行
 
-![image-20210118200007585](../../../image/image-20210118200007585.png)
-
-![image-20210118202613175](../../../image/image-20210118202613175.png)
+![image-20210118200007585](D:\ebook\markdown\image/image-20210118200007585.png)![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658410555-image-20210118202613175.png)
 
 可以执行phpinfo()
 
@@ -51,13 +49,9 @@ var_dump(scandir('./'))
 print_r(glob(*.*))
 ```
 
-![image-20210118203253714](C:/Users/Cite-Arkssac/AppData/Roaming/Typora/typora-user-images/image-20210118203253714.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658471432-image-20210118203416888.png)
 
-
-
-![image-20210118203416888](../../../image/image-20210118203416888.png)
-
-![image-20210118203431434](../../../image/image-20210118203431434.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658493997-image-20210118203431434.png)
 
 这些都可以
 
@@ -67,4 +61,4 @@ print_r(glob(*.*))
 
 所以可以直接查看
 
-![image-20210118203540127](../../../image/image-20210118203540127.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618658510950-image-20210118203540127.png)

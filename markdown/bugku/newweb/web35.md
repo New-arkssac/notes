@@ -1,31 +1,34 @@
 # web35
 
-![img](../../../image/bugku/3400641220164.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618661489875-3400641220164.png)
 题目描述
+
 >点了login咋没反应
 
 进入题目
-![img](../../../image/bugku/1981642238590.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618661509834-1981642238590.png)
 有个表单
 但是login点不了
 估计是button那有不让点击的元素
 查看源码
-![img](../../../image/bugku/4255743226457.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618661527282-4255743226457.png)
 发现没有东西
 emmmmmmmmm
-![img](../../../image/bugku/2119144246623.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618661544911-2119144246623.png)
 在头部信息中发现有一个css的文件
 查看一下
-![img](../../../image/bugku/2779845239292.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618661563556-2779845239292.png)
 介四个嘛？？
+
 >try ?32371
 
 试试?32371
 emmmmmmm
 哦哦哦~！！我晓得了！
 试着请求一下?32371
-![img](../../../image/bugku/4966947235847.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618661589909-4966947235847.png)
 得到源码
+
 ```php
 <?php
 error_reporting(0);
@@ -72,7 +75,7 @@ else {
 
 挺简单的
 先序列化变量$KEY
-![img](../../../image/bugku/1326256231601.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618661706234-1326256231601.png)
 
 ```php
 <?php
@@ -84,5 +87,5 @@ print(serialize("$KEY"));
 > s:13:"ctf.bugku.com";
 
 然后传cookie过去
-![img](../../../image/bugku/5418758249481.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618661725058-5418758249481.png)
 得到flag

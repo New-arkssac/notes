@@ -1,6 +1,6 @@
 # web16
 
-![image-20210116170523466](../../../image/image-20210116170523466.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657374741-image-20210116170523466.png)
 
 题目描述
 
@@ -8,19 +8,19 @@
 
 进入环境
 
-![image-20210116170557326](../../../image/image-20210116170557326.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657421589-image-20210116170557326.png)
 
 只有一些哈希值
 
 看看有没有主页的备份
 
-![image-20210116170801893](../../../image/image-20210116170801893.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657448404-image-20210116170801893.png)
 
 下载到主页备份源码
 
 查看源码
 
-![image-20210116171000492](../../../image/image-20210116171000492.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657463028-image-20210116171000492.png)
 
 ```php
 <?php
@@ -95,7 +95,7 @@ var_dump($str == '0');
 
 只要是0e开头的md5值互相对比都会出现这种情况
 
-![image-20210116174216141](../../../image/image-20210116174216141.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657481401-image-20210116174216141.png)
 
 过关方法2：
 
@@ -107,4 +107,4 @@ var_dump($str == '0');
 >
 > ​	在php中md5函数加密数组会返回一个NULL的值
 
-![image-20210116174106098](../../../image/image-20210116174106098.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618657499651-image-20210116174106098.png)

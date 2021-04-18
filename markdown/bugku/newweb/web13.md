@@ -1,16 +1,16 @@
 # web13
 
-![image-20210116155936962](../../../image/image-20210116155936962.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618656623871-image-20210116155936962.png)
 
 进入环境
 
-![image-20210116160015096](../../../image/image-20210116160015096.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618656642649-image-20210116160015096.png)
 
 给了个提示
 
 看看源码
 
-![image-20210116160215121](../../../image/image-20210116160215121.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618656662488-image-20210116160215121.png)
 
 有看着像url编码的东西
 
@@ -39,9 +39,9 @@ eval(unescape(p1) + unescape('%35%34%61%61%32' + p2))
 
 拿去提交试一下
 
-![image-20210116160845776](../../../image/image-20210116160845776.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618656689237-image-20210116160845776.png)
 
 得到flag
 
-![image-20210116161052654](../../../image/image-20210116161052654.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618656711400-image-20210116161052654.png)
 

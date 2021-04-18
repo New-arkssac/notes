@@ -1,6 +1,6 @@
 # web28
 
-![image-20210120092348225](../../../image/image-20210120092348225.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659818629-image-20210120092348225.png)
 
 题目描述
 
@@ -8,7 +8,7 @@
 
 进入题目
 
-![image-20210120092514129](../../../image/image-20210120092514129.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659836313-image-20210120092514129.png)
 
 请从本地访问
 
@@ -28,7 +28,7 @@ referer和X-Forwarded-For的区别
 
 这里伪造成为127.0.0.1发送的就好了
 
-![image-20210120093441158](../../../image/bugku/image-20210120093441158.png)
+![](https://bulabula-1305079562.cos.ap-guangzhou.myqcloud.com/img/1618659863924-image-20210120093441158.png)
 
 得到flag
 
